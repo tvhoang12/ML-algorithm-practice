@@ -68,7 +68,6 @@ if __name__ == "__main__":
   sorted_indices = np.argsort(distances)
   print("Chỉ số các điểm huấn luyện theo thứ tự khoảng cách tăng dần:", sorted_indices)
 
-  # ví dụ chọn k = 2
   k = 2
   nearest_idx = get_k_nearest_indices(distances, k)
   print(f"{k} điểm gần nhất có chỉ số:", nearest_idx)
